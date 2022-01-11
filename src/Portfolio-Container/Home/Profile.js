@@ -1,27 +1,30 @@
 import React from 'react'
 import Typical from 'react-typical'
+import './Profile.css'
 
 export default function Profile() {
     return (
-        <div className="profile-container">
+        <div className="profile-main">
             <div className="profile-parent">
                 <div className="profile-details">
-                    <div className="cols">
-                        <a href="https://www.linkedin.com/in/ryan-ralphs-0465a7169/">
-                            <i className="fa fa-linkedin-square"></i>                       
-                                 </a>
-                        <a href="https://github.com/ryanralphs">
-                            <i className="fa fa-github-square"></i>                       
-                                 </a>
-                        <a href="https://twitter.com/ryanjralphs">
-                            <i className="fa fa-twitter-square"></i>                       
-                                 </a>
+                    <div className="social-media-bar">
+                        <div className="social-media-icons">
+                            <a href="https://www.linkedin.com/in/ryan-ralphs-0465a7169/">
+                                <i className="fa fa-linkedin-square"></i>
+                            </a>
+                            <a href="https://github.com/ryanralphs">
+                                <i className="fa fa-github-square"></i>
+                            </a>
+                            <a href="https://twitter.com/ryanjralphs">
+                                <i className="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
                     </div>
-                <div className="profile-details-name">
-                    <span className="primary-text">
-                        {" "}
-                        Welcome, I am <span className='highlighted-text'>Ryan</span>
-                    </span>
+                    <div className="profile-details-name">
+                        <span className="primary-text">
+                            {" "}
+                            Welcome, I am <span className='highlighted-text'>Ryan</span>
+                        </span>
                     </div>
                     <div className='profile-details-role'>
                         <span className="primary-text">
@@ -29,12 +32,12 @@ export default function Profile() {
                             <h1>
                                 {" "}
                                 <Typical
-                                loop={Infinity}
-                                steps={[
-                                    "Proud Father", 1000,
-                                    "Mountain Biker", 1000,
-                                    "Software Engineer", 1000
-                                ]}
+                                    loop={Infinity}
+                                    steps={[
+                                        "Proud Father", 1000,
+                                        "Mountain Biker", 1000,
+                                        "Software Engineer", 1000
+                                    ]}
                                 />
                             </h1>
                         </span>
@@ -52,6 +55,11 @@ export default function Profile() {
                                 Get CV
                             </button>
                         </a>
+                    </div>
+                </div>
+                <div className="profile-picture">
+                    <div className="profile-picture-background">
+
                     </div>
                 </div>
             </div>
