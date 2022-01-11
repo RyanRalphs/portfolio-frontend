@@ -1,4 +1,5 @@
 import React from 'react'
+import Typical from 'react-typical'
 
 export default function Profile() {
     return (
@@ -15,6 +16,42 @@ export default function Profile() {
                         <a href="https://twitter.com/ryanjralphs">
                             <i className="fa fa-twitter-square"></i>                       
                                  </a>
+                    </div>
+                <div className="profile-details-name">
+                    <span className="primary-text">
+                        {" "}
+                        Welcome, I am <span className='highlighted-text'>Ryan</span>
+                    </span>
+                    </div>
+                    <div className='profile-details-role'>
+                        <span className="primary-text">
+                            {" "}
+                            <h1>
+                                {" "}
+                                <Typical
+                                loop={Infinity}
+                                steps={[
+                                    "Proud Father", 1000,
+                                    "Mountain Biker", 1000,
+                                    "Software Engineer", 1000
+                                ]}
+                                />
+                            </h1>
+                        </span>
+                        <span className="profile-role-tagline">
+                            Proficient in PHP and JavaScript (Laravel, Node, React)
+                        </span>
+                    </div>
+                    <div className='profile-options'>
+                        <button className='btn primary-btn'>
+                            {""}
+                            Contact Me{" "}
+                        </button>
+                        <a href="#" download="Ryan-Ralphs.pdf">
+                            <button className="btn highlighted-btn">
+                                Get CV
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
