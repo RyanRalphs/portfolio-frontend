@@ -38,13 +38,14 @@ export default function Profile() {
                                         "Mountain Biker", 1000,
                                         "Gamer", 1000,
                                         "Software Engineer", 1000,
-                                        
+
                                     ]}
                                 />
                             </h1>
+
                         </span>
                         <span className="profile-role-tagline">
-                            Proficient in PHP and JavaScript (Laravel, Node, React)
+                            and this is my software portfolio (made with <span><a className="highlighted-text" href="https://reactjs.org"> react.js</a></span> and <span><a className="highlighted-text" href="https://nodejs.org"> node.js</a>)</span>
                         </span>
                     </div>
                     <div className='profile-options'>
