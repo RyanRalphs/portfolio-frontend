@@ -13,20 +13,20 @@ export default function About(props) {
         animations.animations.fadeInScreen(props.id)
     }
 
-    const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler)
+    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler)
 
     const screenConstants = {
-        description: "Test desc",
+        description: "Hi! I'm Ryan. I am a proud father, reckless mountain biker, competitive gamer and a keen software engineer. Starting out as a QA tester with no experience in Software, I have spent the last 5 years learning and refining my skills. My first coding language was PHP, and while I do love Laravel, I spend a lot more of my time writing JavaScript, especially node.js. This is what all Apps featured on this website will be wrote in with a React front end.",
         highlights: {
             bullets: [
-                "Test Test Test",
-                "Test Test Test",
-                "Test Test Test",
-                "Test Test Test",
-                "Test Test Test",
-                "Test Test Test"
+                "I have expereince with multiple Testing Frameworks and Styles",
+                "I have experience with noSQL and SQL databases",
+                "I have worked in Agile frameworks for over 4 years",
+                "I have created and maintained PHP packages for BDD automation",
+                "I have worked as a QA, a Developer, an SDET and a Developer in Test",
+                "I have experience in Microservice arcitecture and with REST APIs"
             ],
-            heading: "test Heading"
+            heading: "Quick Points"
         }
     }
 
@@ -41,7 +41,7 @@ export default function About(props) {
     return (
         <div className='about-main screen-container' id={props.id}>
             <div className='about-parent'>
-                <ScreenHeading title={'About Me'} subHeading={'An average Engineer'}/>
+                <ScreenHeading title={'About Me'} subHeading={'PHP/Laravel Developer gone JavaScript...'}/>
                     <div className='about-card'>
                         <div className='about-profile'></div>
                         <div className='about-details'>

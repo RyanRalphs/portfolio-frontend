@@ -5,55 +5,105 @@
     align-items: center;
     margin: 50px 0 0 0;
 }
-.about-parent{
+
+.about-parent {
     max-width: 1000px;
     width: 70%
 }
-.about-card{
+
+.about-card {
     display: flex;
     width: 100%;
     box-shadow: 0 0px 20px -2px #1f2235;
 }
-.about-profile{
+
+.about-profile {
     width: 50%;
     background-image: url('../../assets/About/MeandMyBike.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-.about-details{
+
+.about-details {
     width: 48%;
     text-align: justify;
     padding: 30px;
 
 }
+
 .about-description {
     font-size: 12px;
 
 }
-.about-highlights{
+
+.about-highlights {
     margin: 80px 0;
 }
-.highlight-heading{
+
+.highlight-heading {
     font-family: "Poppins Bold";
     font-size: 14px;
     margin: 0 0 5px 0;
 
 }
-.highlight{
+
+.highlight {
     display: flex;
     align-items: center;
     margin: 5px 0;
     font-size: 12px;
 }
+
 .highlight-blob {
     height: 12px;
     width: 12px;
-    margin: 0 10px 0 0;
+    margin: 0 18px 0 0;
     background-color: var(--yellow);
     border-radius: 50%;
 }
-.about-options .highlighted-btn{
- float: right;
- background-color: var(--yellow)
+
+.about-options .highlighted-btn {
+    float: right;
+    background-color: var(--yellow)
+}
+
+@media only screen and (max-width: 1110px) {
+    .screen-container {
+        width: 100%;
+    }
+   .about-main {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width: 898px) {
+    .screen-container {
+        width: 100%;
+    }
+    .about-profile {
+        display: none;
+    }
+
+    .about-details {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 466px) {
+    .screen-container {
+        width: 100%;
+    }
+    .about-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-options .highlighted-btn {
+        margin: 24px 0 0 0 !important;
+    }
+
+    .about-options button {
+        width: 100%
+    }
 }
