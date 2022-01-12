@@ -16,17 +16,17 @@ export default function About(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler)
 
     const screenConstants = {
-        description: "Hi! I'm Ryan. I am a proud father, reckless mountain biker, competitive gamer and a keen software engineer. Starting out as a QA tester with no experience in Software, I have spent the last 5 years learning and refining my skills. My first coding language was PHP, and while I do love Laravel, I spend a lot more of my time writing JavaScript, especially node.js. This is what all Apps featured on this website will be wrote in with a React front end.",
+        description: "Hi! I'm Ryan. I am a proud father, reckless mountain biker, competitive gamer and a keen software engineer. While I absolutely love being behind a screen creating software, I am happiest when spending time with my children, competing in online games or when up a mountain with my bike and my friends.",
         highlights: {
             bullets: [
-                "I have expereince with multiple Testing Frameworks and Styles",
-                "I have experience with noSQL and SQL databases",
-                "I have worked in Agile frameworks for over 4 years",
-                "I have created and maintained PHP packages for BDD automation",
-                "I have worked as a QA, a Developer, an SDET and a Developer in Test",
-                "I have experience in Microservice arcitecture and with REST APIs"
+                "Father of 4, 3 daughters and a son",
+                "I absolutely love Grime, Dub and Drum and Bass music",
+                "I play MMO's, FPS/TPS online and MOBAs",
+                "My favourite software framework is node.js",
+                "I live in the West Midlands",
+                "I love keeping fit outside of mountain biking",
             ],
-            heading: "Quick Points"
+            heading: "The long and short of it"
         }
     }
 
@@ -41,7 +41,7 @@ export default function About(props) {
     return (
         <div className='about-main screen-container' id={props.id}>
             <div className='about-parent'>
-                <ScreenHeading title={'About Me'} subHeading={'PHP/Laravel Developer gone JavaScript...'}/>
+                <ScreenHeading title={'About Me'} subHeading={'Every Developer has a life outside of code... Right?'}/>
                     <div className='about-card'>
                         <div className='about-profile'></div>
                         <div className='about-details'>
