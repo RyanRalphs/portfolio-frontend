@@ -4,6 +4,7 @@ import ScrollService from '../../utils/scrollService'
 import animations from '../../utils/animations'
 import "./About.css"
 
+
 export default function About(props) {
     let fadeInScreenHandler = (screen) => {
         if(screen.fadeInScreen !== screen)
@@ -16,10 +17,11 @@ export default function About(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler)
 
     const screenConstants = {
-        description: "Hi! I'm Ryan. I am a proud father, reckless mountain biker, competitive gamer and a keen software engineer. While I absolutely love being behind a screen creating software, I am happiest when spending time with my children, competing in online games or when up a mountain with my bike and my friends.",
+        description: "Hi! I'm Ryan. I am a proud father, reckless mountain biker, competitive gamer and a keen software engineer. While I absolutely love being behind a screen creating software, I am happiest when spending time with my children and partner, competing in online games or when up a mountain with my bike and my friends.",
         highlights: {
             bullets: [
                 "Father of 4, 3 daughters and a son",
+                "Partner to Jess, my biggest supporter",
                 "I absolutely love Grime, Dub and Drum and Bass music",
                 "I play MMO's, FPS/TPS online and MOBAs",
                 "My favourite software framework is node.js",

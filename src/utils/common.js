@@ -12,7 +12,7 @@ export const totalScreens = [
         component: About
     },
     {
-        screen_name: "CV",
+        screen_name: "Professional",
         component: CV
     }
 ]
