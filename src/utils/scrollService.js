@@ -10,8 +10,8 @@ export default class scrollService {
     constructor() {
         window.addEventListener('scroll', this.checkCurrentScreen)
     }
-    scrollToContactMe = () => {
-        let contactMeScreen = document.getElementById('Contact Me')
+    scrollToContact = () => {
+        let contactMeScreen = document.getElementById('Contact')
         if (!contactMeScreen) {
             return;
         }

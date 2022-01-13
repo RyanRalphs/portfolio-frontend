@@ -1,6 +1,8 @@
 import Home from "../Portfolio-Container/Home/Home";
 import About from "../Portfolio-Container/About/About";
 import CV from "../Portfolio-Container/CV/CV";
+import Projects from "../Portfolio-Container/Projects/Project";
+import Contact from "../Portfolio-Container/ContactMe/Contact";
 
 export const totalScreens = [
     {
@@ -14,6 +16,14 @@ export const totalScreens = [
     {
         screen_name: "Professional",
         component: CV
+    },
+    {
+        screen_name: "Projects",
+        component: Projects
+    },
+    {
+        screen_name: "Contact",
+        component: Contact
     }
 ]
 

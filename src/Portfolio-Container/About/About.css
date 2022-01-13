@@ -69,18 +69,14 @@
 }
 
 @media only screen and (max-width: 1110px) {
-    .screen-container {
-        width: 100%;
-    }
    .about-main {
-        width: 88%;
+        width: 95%;
+        
     }
 }
 
 @media only screen and (max-width: 898px) {
-    .screen-container {
-        width: 100%;
-    }
+
     .about-profile {
         display: none;
     }
@@ -91,9 +87,7 @@
 }
 
 @media only screen and (max-width: 466px) {
-    .screen-container {
-        width: 100%;
-    }
+ 
     .about-options {
         display: flex;
         flex-direction: column;

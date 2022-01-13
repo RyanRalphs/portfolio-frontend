@@ -168,3 +168,50 @@
     font-size: 16px;
     color: #1f2235;
 }
+@media only screen and (max-width: 1110px){
+    .cv-card {
+        width: 880px;
+    }
+    .cv-bullet-details{
+        padding: 0 0 0 70px;
+    }
+    .programming-skills-container {
+    margin-left: 10%;
+}
+}
+@media only screen and (max-width: 1023px){
+   
+.cv-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content
+}
+.bullets{
+    width: 88%;
+}
+.programming-skills-container {
+margin-left: 10%;
+}
+.cv-card{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    align-items: center;
+    width: 88%;
+}
+.cv-bullet-details{
+    height: 360px;
+    width: fit-content;
+    padding: 0;
+}
+.cv-bullets{
+    width: 100%;
+    margin: 30px 0;
+
+}
+.selected-bullet{
+    width: 100%;
+}
+}
