@@ -70,9 +70,11 @@ export default function About(props) {
               {renderHighlights()}
             </div>
             <div className="about-options">
-              <button className="btn primary-btn">Hire me on Fiverr!</button>
+            <a href="https://fiverr.com/sdetrr">
+              <button className="btn primary-btn"><i className="fa fa-arrow-right"></i> Hire me on Fiverr!</button>
+              </a>
                 <button onClick={handleDownload}  className="btn highlighted-btn">
-                  Get CV
+                <i className="fa fa-arrow-right"></i> Get CV
                 </button>
             </div>
           </div>
