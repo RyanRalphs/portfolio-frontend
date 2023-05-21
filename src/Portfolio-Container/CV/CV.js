@@ -44,48 +44,41 @@ export default function CV(props) {
     const cvBullets = [
         { label: "Current Role", logo: "work-history.svg" },
         { label: "Previous Roles", logo: "projects.svg" },
-        { label: "Key Languages", logo: "programming-skills.svg" },
-        { label: "Current Tech Obsessions", logo: "interests.svg" }
+        { label: "Skills", logo: "programming-skills.svg" },
+        { label: "Tech Obsessions", logo: "interests.svg" }
     ]
 
     const programmingSkillDetails = [
-        { skill: "JavaScript", ratingPercentage: 70 },
+        { skill: "JS", ratingPercentage: 90 },
         { skill: "Node.js", ratingPercentage: 80 },
-        { skill: "React.js", ratingPercentage: 60 },
-        { skill: "Express.js", ratingPercentage: 80 },
+        { skill: "TS", ratingPercentage: 90 },
+        { skill: "Golang", ratingPercentage: 80 },
         { skill: "Laravel", ratingPercentage: 80 },
         { skill: "PHP", ratingPercentage: 85 },
         { skill: "noSQL", ratingPercentage: 75 },
         { skill: "MySQL", ratingPercentage: 80 },
         { skill: "Socket.io", ratingPercentage: 80 },
-        { skill: "Typescript", ratingPercentage: 60 },
-        { skill: "HTML", ratingPercentage: 80 },
-        { skill: "CSS", ratingPercentage: 75 },
+        { skill: "Python", ratingPercentage: 95 },
+        { skill: "Docker", ratingPercentage: 80 },
+        { skill: "AWS", ratingPercentage: 60 },
     ]
 
     const CVDetails = [
 
         <div className="cv-screen-container" key="work-history">
-            <CVHeading heading={"CityFibre"} subHeading={"Software Developer in Test"} fromDate={"Jul 2019"} toDate={"Present"} />
+            <CVHeading heading={"Iceland Foods"} subHeading={"Senior Software Engineer"} fromDate={"March 2023"} toDate={"Present"} />
             <div className="history-description"><span class="cv-description-text">
-                Unit and Feature testing of PHP / JavaScript code on various different frameworks including Laravel, PHPCake and Vue
+                Automation focused Polyglot Engineer, working with a variety of languages and frameworks to deliver solutions.
                 <br />
-                <br />
-
-                Behat / Automation of all User Interface features in Gherkin / Cucumber format
-                <br />
-                <br />
-
-                Tooling for QA team including packages to aid with testing, docker environment set ups and extra oversight for guiding Junior developers and testers into correctly delivering features and safe code.
             </span>
             </div>
         </div>,
 
 
         <div className="cv-screen-container" key="work-past">
-            <CVHeading heading={"CityFibre"} subHeading={"Junior Software Developer in Test"} fromDate={"Jan 2019"} toDate={"Jul 2019"} />
-            <CVHeading heading={"CityFibre"} subHeading={"Junior Software Developer"} fromDate={"Aug 2018"} toDate={"Jan 2019"} />
-            <CVHeading heading={"CityFibre"} subHeading={"QA Analyst"} fromDate={"Sept 2017"} toDate={"Aug 2018"} />
+            <CVHeading heading={"Iceland Foods"} subHeading={"Software Engineer"} fromDate={"Sept 2022"} toDate={"March 2023"} />
+            <CVHeading heading={"Iceland Foods"} subHeading={"Software Engineer in Test"} fromDate={"May 2022"} toDate={"Sept 2022"} />
+            <CVHeading heading={"CityFibre"} subHeading={"Software Engineer in Test"} fromDate={"Oct 2021"} toDate={"May 2022"} />
 
 
             
@@ -100,9 +93,10 @@ export default function CV(props) {
         </div>,
 
         <div className="cv-screen-container" key="interests">
-            <CVHeading heading="The Testing Pyramid" description="I love the idea of each technical member of a team being able to contribute to one recognised goal; to deliver quality. Tests matter!"/>
-            <CVHeading heading="Design Patterns" description="Since getting into JavaScript a lot more (especially on the back end), I have developed a very keen interest in design patterns and always have my head in a book when I get the chance!"/>
-            <CVHeading heading="Microservices" description="After being exposed to Microservices around 3 years ago, I fell in love with the fast paced, agile and scalable style of Microservices." />
+            <br />  <br />
+            <CVHeading heading="BDD" description="The hidden benefits of BDD are more valuable than you can imagine. Inspiring collaboration, providing living documentation and allowing reusability."/>
+            <CVHeading heading="Webdriver.io" description="Webkit browsers are fantastic, but there's nothing better than the real thing. Webdriver is a fantastic framework for testing on real browsers using Gecko and Chromedriver."/>
+            <CVHeading heading="Golang" description="Being a backend person at heart, Golang has found a place in my toolkit as THE backend language to use. It's 'batteries included' standard library, concurrency model and type safety are incredible and provde confidence when building microservices." />
         </div>,
     ]
 

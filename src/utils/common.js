@@ -21,10 +21,6 @@ export const totalScreens = [
         screen_name: "Projects",
         component: Projects
     },
-    {
-        screen_name: "Contact",
-        component: Contact
-    }
 ]
 
 export const getScreenIndex = (screen_name) => {

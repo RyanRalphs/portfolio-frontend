@@ -51,8 +51,7 @@ export default function Profile() {
                     </div>
                     <div className='profile-options'>
                         <button className='btn primary-btn' onClick={() => scrollService.scrollHandler.scrollToContact()}>
-                            
-                            Contact Me
+                        <i className="fa fa-arrow-right"></i>  Hire me on Fiverr! 
                         </button>
                         <a href="#" download="Ryan-Ralphs.pdf">
                             <button className="btn highlighted-btn">
