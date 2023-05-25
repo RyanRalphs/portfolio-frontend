@@ -72,12 +72,12 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <a href="https://fiverr.com/sdetrr">
+            <a href="https://github.com/RyanRalphs/habitfield">
             <button
               className="btn primary-btn"
               onClick={() => scrollService.scrollHandler.scrollToContact()}
             >
-              <i className="fa fa-arrow-right"></i> Hire me on Fiverr!
+              <i className="fa fa-arrow-right"></i> Recent Project!
             </button>
             </a>
             <button onClick={handleDownload} className="btn highlighted-btn">
